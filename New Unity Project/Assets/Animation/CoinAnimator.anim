@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Death
+  m_Name: CoinAnimator
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -19,14 +19,14 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 419a40cab2ff94934bb3fe42cf588420, type: 3}
-    - time: 0.4
-      value: {fileID: 21300000, guid: a79a181778a964f2389c4fe8ff0c115f, type: 3}
+      value: {fileID: 21300000, guid: 8644777f8dd2a46ba90276a5701c9ddf, type: 3}
+    - time: 0.083333336
+      value: {fileID: 21300000, guid: 8f44ef20c701d4e63a975546e2bebf78, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 5
+  m_SampleRate: 12
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -41,14 +41,14 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 419a40cab2ff94934bb3fe42cf588420, type: 3}
-    - {fileID: 21300000, guid: a79a181778a964f2389c4fe8ff0c115f, type: 3}
+    - {fileID: 21300000, guid: 8644777f8dd2a46ba90276a5701c9ddf, type: 3}
+    - {fileID: 21300000, guid: 8f44ef20c701d4e63a975546e2bebf78, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.6
+    m_StopTime: 0.16666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
