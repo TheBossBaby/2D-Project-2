@@ -280,4 +280,9 @@ public class CharacterController2D : MonoBehaviour {
         // play the jump sound
         PlaySound(jumpSFX);
     }
+
+    public void EnemyBounce()
+	{
+		doJump();
+	}
 }

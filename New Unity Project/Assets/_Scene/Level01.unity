@@ -1332,6 +1332,16 @@ Prefab:
       propertyPath: myWaypoints.Array.data[1]
       value: 
       objectReference: {fileID: 895393258}
+    - target: {fileID: 114975659811947156, guid: 4d0f2fd646c4846f8b022fcfcc83948c,
+        type: 2}
+      propertyPath: moveSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114975659811947156, guid: 4d0f2fd646c4846f8b022fcfcc83948c,
+        type: 2}
+      propertyPath: waitAtWaypointTime
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4d0f2fd646c4846f8b022fcfcc83948c, type: 2}
   m_IsPrefabParent: 0
